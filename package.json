@@ -1,0 +1,25 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Learning Typescript by making a Blockchain with it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "prestart": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ch-4ml/typechain.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ch-4ml/typechain/issues"
+  },
+  "homepage": "https://github.com/ch-4ml/typechain#readme",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "tsc-watch": "^4.4.0"
+  }
+}
